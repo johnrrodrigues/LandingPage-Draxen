@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OneHelp - Funcionalidades</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background-color: #fff;
+    color: #333;
+  }
+
+  section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #1f6f4a;
+    margin-bottom: 8px;
+  }
+
+  .subtitulo {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+  }
+
+  .grid-funcionalidades {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .card h3 {
+    color: #1f6f4a;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+  }
+
+  .card p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+
+  .card .dor {
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .card .dor strong {
+    color: #1f6f4a;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 50px 0;
+  }
+
+  .fluxo ol {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+
+  .fluxo li {
+    margin-bottom: 14px;
+    line-height: 1.5;
+  }
+
+  .fluxo li strong {
+    color: #1f6f4a;
+  }
+</style>
+</head>
+<body>
+
+<section>
+  <h2>Funcionalidades do OneHelp</h2>
+  <p class="subtitulo">Tudo o que a sua ONG precisa para gerenciar adoções, doações e equipe em um só lugar.</p>
+
+  <div class="grid-funcionalidades">
+
+    <div class="card">
+      <h3>Catálogo de Animais para Adoção</h3>
+      <p>Cadastro completo dos animais disponíveis, com fotos, histórico e status de adoção sempre atualizado.</p>
+      <p class="dor"><strong>Resolve:</strong> acaba com o controle solto em planilhas ou papel, centralizando as informações dos animais.</p>
+    </div>
+
+    <div class="card">
+      <h3>Gestão de Adotantes</h3>
+      <p>Cadastro e triagem de potenciais adotantes, com histórico de interações e status do processo.</p>
+      <p class="dor"><strong>Resolve:</strong> elimina a bagunça de anotações e conversas espalhadas pelo WhatsApp.</p>
+    </div>
+
+    <div class="card">
+      <h3>Doações</h3>
+      <p>Página informativa com formas de contribuição: Pix, suprimentos e campanhas ativas da ONG.</p>
+      <p class="dor"><strong>Resolve:</strong> facilita a arrecadação de recursos, tornando o processo transparente e acessível.</p>
+    </div>
+
+    <div class="card">
+      <h3>Funcionários e Voluntários</h3>
+      <p>Controle de acesso e organização das atividades de cada membro da equipe.</p>
+      <p class="dor"><strong>Resolve:</strong> traz clareza sobre quem faz o quê, evitando retrabalho e desorganização interna.</p>
+    </div>
+
+    <div class="card">
+      <h3>Dashboard de Indicadores</h3>
+      <p>Painel com métricas de adoções, animais disponíveis e desempenho geral da operação.</p>
+      <p class="dor"><strong>Resolve:</strong> dá visibilidade rápida para a coordenação tomar decisões, sem depender de relatórios manuais.</p>
+    </div>
+
+    <div class="card">
+      <h3>Mural de Novidades</h3>
+      <p>Divulgação de feiras de adoção, resgates e eventos da ONG direto no site.</p>
+      <p class="dor"><strong>Resolve:</strong> aumenta o engajamento da comunidade com a causa, sem depender só de redes sociais.</p>
+    </div>
+
+  </div>
+</section>
+
+<hr>
+
+<section class="fluxo">
+  <h2>Fluxo Básico de uma Adoção</h2>
+  <p class="subtitulo">Do interesse até a adoção concluída.</p>
+
+  <ol>
+    <li><strong>Descoberta:</strong> adotante navega pelo catálogo público e escolhe um animal.</li>
+    <li><strong>Cadastro:</strong> adotante preenche seus dados e demonstra interesse na adoção.</li>
+    <li><strong>Triagem:</strong> equipe da ONG analisa o perfil e avalia a compatibilidade.</li>
+    <li><strong>Aprovação:</strong> adoção é aprovada e o status do animal é atualizado no sistema.</li>
+    <li><strong>Entrega:</strong> animal é entregue ao novo lar, com o processo registrado na plataforma.</li>
+  </ol>
+</section>
+
+</body>
+</html>
