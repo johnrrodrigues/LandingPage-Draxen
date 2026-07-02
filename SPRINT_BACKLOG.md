@@ -42,6 +42,7 @@
 | 8   | Fluxo das Funcionalidades  | Linha do tempo com os 6 passos do funcionamento do sistema                  | João        | #15   | ☑      |
 | 9   | Benefícios                 | Seção com três cards de benefícios para a ONG, animais e adotantes          | João        | #16   | ☑      |
 | 10  | Refatoração de Diretórios  | Reorganização da estrutura de pastas do repositório                         | John        | #18   | ☑      |
+| 11  | Ajuste de Responsividade   | Correção da responsividade do site para desktop, tablet e mobile            | Rafael      | #24   | ☑      |
 
 ---
 
