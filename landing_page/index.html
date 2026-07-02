@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OneHelp — Tecnologia que conecta amor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+
+      <a href="#inicio" class="navbar__logo">
+        <img src="img/Onehelp.png" alt="Logo OneHelp" class="navbar__logo-imagem" />
+      </a>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="navbar__painel" id="navMenu">
+        <nav class="navbar__menu">
+          <a href="#inicio">Início</a>
+          <a href="#historia">O Projeto</a>
+          <a href="#como-funciona">Funcionalidades</a>
+          <a href="#beneficios">Benefícios</a>
+          <a href="#equipe">Equipe</a>
+          <a href="#tecnologias">Tecnologias</a>
+        </nav>
+
+        <a href="https://bichocarente.vercel.app/" target="_blank" rel="noopener" class="botao botao--primario navbar__cta">Conheça o site do cliente</a>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__container">
+
+        <div class="hero__texto">
+          <span class="selo">Sistema para ONGs de Proteção Animal</span>
+
+          <h1 class="hero__titulo">
+            Um novo lar começa com uma boa gestão.
+          </h1>
+
+          <p class="hero__subtitulo">
+            Conectamos tecnologia e cuidado para tornar o processo de adoção mais
+            organizado, transparente e eficiente para as ONGs e para quem deseja
+            transformar a vida de um animal.
+          </p>
+
+          <a href="#historia" class="botao botao--primario">
+            Conheça nossa história <span aria-hidden="true"></span>
+          </a>
+
+          <ul class="hero__selos">
+            <li>° Organização</li>
+            <li>° Segurança</li>
+            <li>° Transparência</li>
+            <li>° Amor</li>
+          </ul>
+        </div>
+
+        <div class="hero__mockup">
+          <img class="hero__mockup-imagem" src="img/home/notebook.jpeg" alt="Print do sistema OneHelp" />
+        </div>
+
+      </div>
+    </section>
+
+    
+    <!-- =========================================================
+         NOSSA HISTÓRIA
+    ========================================================== -->
+    <section class="historia" id="historia">
+      <div class="historia__grid">
+
+        <img class="historia__foto" src="img/historia/dog.jpg" alt="Cão resgatado, mascote da nossa história" />
+
+        <div>
+          <h2 class="titulo-secao">Nossa <span>História</span> <span class="coracao">♡</span></h2>
+          <p class="texto-negrito">Todo grande impacto começa com um problema real.</p>
+          <p>
+            Nosso cliente é a <strong>ONG Bicho Carente</strong>, localizada em
+            <strong>Leme, SP</strong>, que desenvolve um trabalho contínuo de resgate,
+            tratamento e adoção responsável de cães e gatos.
+          </p>
+          <p>
+            Diariamente, a equipe dedica tempo e esforço para cuidar dos animais e encontrar
+            um lar para eles. Entretanto, boa parte da gestão ainda era feita por meio de
+            processos manuais — planilhas, anotações e controles soltos — o que dificultava
+            a organização das informações.
+          </p>
+          <p>Foi observando esse cenário que surgiu a ideia do nosso projeto.</p>
+        </div>
+
+        <div>
+          <p>
+            Desenvolvemos uma plataforma que utiliza a tecnologia para simplificar a gestão
+            da ONG, oferecendo uma solução intuitiva, segura e centralizada para administrar
+            todo o processo de adoção.
+          </p>
+          <div class="destaque-card">
+            <span class="destaque-card__icone">♡</span>
+            <p>
+              Nosso objetivo é contribuir para que as organizações tenham mais eficiência
+              em suas atividades e possam dedicar ainda mais atenção ao bem-estar animal.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         PROBLEMA / SOLUÇÃO
+    ========================================================== -->
+    <section class="comparativo">
+      <div class="comparativo__grid">
+
+        <article class="card card--problema" data-animate>
+          <h2 class="card__titulo card__titulo--problema">O Problema</h2>
+          <p class="texto-negrito">A gestão também salva vidas.</p>
+          <p>
+            Embora o trabalho das ONGs seja movido pelo amor aos animais,
+            a administração do processo de adoção ainda apresenta diversos desafios:
+          </p>
+          <ul class="lista-check lista-check--problema">
+            <li>Cadastro manual de animais</li>
+            <li>Pouco controle sobre adotantes</li>
+            <li>Informações espalhadas em diferentes documentos</li>
+            <li>Falta de histórico das adoções</li>
+            <li>Dificuldade para acompanhar adoções</li>
+            <li>Alto risco de perda de informações</li>
+          </ul>
+        </article>
+
+        <article class="card card--solucao" data-animate>
+          <h2 class="card__titulo card__titulo--solucao">Nossa Solução</h2>
+          <p class="texto-negrito">Tecnologia a serviço da adoção responsável.</p>
+          <p>
+            Criamos um sistema web capaz de centralizar todas as informações
+            da ONG em um único ambiente:
+          </p>
+          <ul class="lista-check lista-check--solucao">
+            <li>Cadastro de animais</li>
+            <li>Cadastro de adotantes</li>
+            <li>Cadastro de voluntários</li>
+            <li>Cadastro de adoção com status (adotado ou devolvido)</li>
+            <li>Anexo do contrato de adoção/devolução</li>
+            <li>Interface intuitiva pensada para o dia a dia da equipe</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+        <!-- =========================================================
+         MISSÃO / VALORES
+    ========================================================== -->
+    <section class="missao-valores">
+      <div class="missao-valores__grid">
+
+        <div class="missao" data-animate>
+          <h2 class="titulo-secao">Nossa Missão</h2>
+          <p>
+            Mais do que desenvolver um sistema, queremos criar uma ferramenta capaz de
+            fortalecer o trabalho realizado pelas ONGs.
+          </p>
+          <p class="texto-negrito texto-verde">
+            Quando a gestão se torna mais eficiente, sobra mais tempo para aquilo que
+            realmente importa.
+          </p>
+          <p class="missao__frase">
+            Salvar vidas e encontrar um novo lar para cada animal.
+          </p>
+        </div>
+
+        <div class="valores" data-animate>
+          <h2 class="titulo-secao">Nossos Valores</h2>
+          <ul class="valores__grid">
+            <li><span>🐾</span>Bem-estar animal</li>
+            <li><span>🤝</span>Responsabilidade</li>
+            <li><span>🔒</span>Segurança das informações</li>
+            <li><span>💡</span>Inovação</li>
+            <li><span>🧑‍🤝‍🧑</span>Impacto social</li>
+            <li><span>🗂️</span>Organização</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+ <!-- =========================================================
+         COMO FUNCIONA
+    ========================================================== -->
+    <section class="como-funciona" id="como-funciona">
+      <h2 class="titulo-secao titulo-secao--centro">Como funciona?</h2>
+
+      <ol class="passos">
+        <li class="passos__item" data-animate>
+          <span class="passos__numero">1</span>
+          <span class="passos__icone">🐕</span>
+          <p>A ONG cadastra os animais resgatados.</p>
+        </li>
+        <li class="passos__item" data-animate>
+          <span class="passos__numero">2</span>
+          <span class="passos__icone">👤</span>
+          <p>A ONG cadastra adotantes e voluntários.</p>
+        </li>
+        <li class="passos__item" data-animate>
+          <span class="passos__numero">3</span>
+          <span class="passos__icone">📋</span>
+          <p>A ONG registra a adoção, vinculando o animal ao adotante.</p>
+        </li>
+        <li class="passos__item" data-animate>
+          <span class="passos__numero">4</span>
+          <span class="passos__icone">📄</span>
+          <p>O contrato de adoção (ou devolução) é anexado ao registro.</p>
+        </li>
+        <li class="passos__item" data-animate>
+          <span class="passos__numero">5</span>
+          <span class="passos__icone">✅</span>
+          <p>O status do animal é atualizado: adotado ou devolvido.</p>
+        </li>
+        <li class="passos__item" data-animate>
+          <span class="passos__numero">6</span>
+          <span class="passos__icone">♡</span>
+          <p>O sistema mantém todo o histórico de adoções.</p>
+        </li>
+      </ol>
+    </section>
+    <!-- =========================================================
+         BENEFÍCIOS
+    ========================================================== -->
+    <section class="beneficios" id="beneficios">
+      <h2 class="titulo-secao titulo-secao--centro">Benefícios</h2>
+
+      <div class="beneficios__grid">
+
+        <article class="beneficio-card beneficio-card--ong" data-animate>
+          <img src="img/beneficios/ONG.jpeg" alt="ONG" />
+          <div class="beneficio-card__conteudo">
+            <h3>Para a ONG</h3>
+            <ul class="lista-check">
+              <li>Centralização de todas as informações</li>
+              <li>Organização dos processos</li>
+              <li>Agilidade no atendimento</li>
+              <li>Redução de erros</li>
+              <li>Controle completo das adoções</li>
+              <li>Facilidade para encontrar informações</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="beneficio-card beneficio-card--animais" data-animate>
+          <img src="img/beneficios/animais.jpg" alt="animais" />
+          <div class="beneficio-card__conteudo">
+            <h3>Para os animais</h3>
+            <ul class="lista-check">
+              <li>Processo de adoção mais rápido</li>
+              <li>Melhor acompanhamento</li>
+              <li>Maior chance de encontrar um lar</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="beneficio-card beneficio-card--adotantes" data-animate>
+          <img src="img/beneficios/adotantes.jpg" alt="Adotante" />
+          <div class="beneficio-card__conteudo">
+            <h3>Para os adotantes</h3>
+            <ul class="lista-check">
+              <li>Processo mais organizado</li>
+              <li>Transparência durante toda a adoção</li>
+              <li>Cadastro simplificado</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>    
+    <!-- =========================================================
+         EQUIPE / COMPROMISSO
+    ========================================================== -->
+    <section class="equipe-compromisso" id="equipe">
+      <div class="equipe-compromisso__grid">
+
+        <div class="equipe" data-animate>
+          <h2 class="titulo-secao">Nossa Equipe <span class="coracao">♡</span></h2>
+          <p>
+            Este projeto foi desenvolvido como parte do curso de Desenvolvimento de
+            Software Multiplataforma, aplicando conhecimentos em desenvolvimento web,
+            banco de dados, metodologias ágeis e engenharia de software.
+          </p>
+          <p class="texto-negrito">
+            Utilizamos o Scrum para garantir organização, colaboração e evolução
+            contínua do sistema.
+          </p>
+
+          <ul class="equipe__lista">
+            <li><span class="avatar">PG</span>Paola G.<small>Product Owner, Scrum Master e Banco de Dados Relacional</small></li>
+            <li><span class="avatar">CP</span>Cauã P.<small>Desenvolvedor Backend e Banco de Dados não Relacional</small></li>
+            <li><span class="avatar">JR</span>John Roberto<small>Desenvolvedor FullStack</small></li>
+            <li><span class="avatar">RC</span>Rafael C.<small>Desenvolvedor Frontend</small></li>
+            <li><span class="avatar">JP</span>João Pedro<small>Documentação</small></li>
+          </ul>
+        </div>
+
+        <div class="compromisso" data-animate>
+          <h2 class="titulo-secao">Nosso Compromisso</h2>
+          <p>Acreditamos que a tecnologia pode transformar realidades.</p>
+          <p>
+            Cada funcionalidade desenvolvida neste projeto foi pensada para facilitar
+            o trabalho das ONGs e contribuir para que mais animais encontrem um lar
+            seguro e cheio de carinho.
+          </p>
+          <p class="texto-negrito texto-verde">
+            Porque toda adoção merece um processo simples, organizado e confiável.
+          </p>
+          <img class="compromisso__foto" src="img/compromisso/dog_cat.jpg" alt="Cão com coleira, símbolo do nosso compromisso" />
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         TECNOLOGIAS UTILIZADAS
+    ========================================================== -->
+    <section class="tecnologias" id="tecnologias">
+      <h2 class="titulo-secao titulo-secao--centro">Tecnologias Utilizadas</h2>
+
+    <ul class="tecnologias__grid">
+      <li><i class="devicon-html5-plain colored tech-icone"></i><small>HTML5</small></li>
+      <li><i class="devicon-css3-plain colored tech-icone"></i><small>CSS3</small></li>
+      <li><i class="devicon-javascript-plain colored tech-icone"></i><small>JavaScript</small></li>
+      <li><i class="devicon-react-original colored tech-icone"></i><small>React</small></li>
+      <li><i class="devicon-django-plain tech-icone tech-icone--django"></i><small>Django</small></li>
+      <li><i class="devicon-python-plain colored tech-icone"></i><small>Python</small></li>
+      <li><i class="devicon-mongodb-plain colored tech-icone"></i><small>MongoDB</small></li>
+      <li><i class="devicon-mysql-plain colored tech-icone"></i><small>MySQL</small></li>
+    </ul>
+  </section>
+
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+  <footer class="footer" id="rodape">
+    <div class="footer__topo">
+      <div class="footer__marca">
+        <div>
+          <strong>OneHelp</strong>
+          <p>Tecnologia que conecta amor.</p>
+        </div>
+      </div>
+
+    <p class="footer__frase footer__frase--centro">
+      Juntos, podemos criar mais histórias com finais felizes. ♡
+    </p>
+
+    <p class="footer__copy">© 2026 Draxen Systems. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- botão flutuante voltar ao topo -->
+  <button id="botaoTopo" class="botao-topo" aria-label="Voltar ao topo">↑</button>
+
+  <script src="src/js/script.js"></script>
+</body>
+
+</html>
