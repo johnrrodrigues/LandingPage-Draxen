@@ -51,4 +51,4 @@ HTML5 · CSS3 · JavaScript
 ## Documentação da Sprint
 
 - [SPRINT_BACKLOG.md](./SPRINT_BACKLOG.md) — Backlog e status das tarefas por sprint
-- [RETROPECTIVE.md](./RETROPECTIVE.md) — Retrospectiva das sprints
+- [RETROSPECTIVE.md](./RETROSPECTIVE.md) — Retrospectiva das sprints
