@@ -427,3 +427,388 @@ button:focus-visible {
     transform: none;
   }
 }
+
+
+/* =========================================================
+   --NOSSA HISTÓRIA--
+========================================================= */
+.historia {
+  padding: 56px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.historia__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.historia__foto {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: var(--raio-lg);
+  box-shadow: var(--sombra);
+}
+
+.historia p {
+  font-size: 13.5px;
+  color: var(--tinta-600);
+}
+
+/* =========================================================
+   --PROBLEMA / SOLUÇÃO--
+========================================================= */
+.comparativo {
+  padding: 24px 24px 56px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.comparativo__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.card {
+  border-radius: var(--raio-lg);
+  padding: 32px;
+}
+
+.card--problema {
+  background: var(--vermelho-50);
+  border: 1px solid var(--vermelho-100);
+}
+
+.card--solucao {
+  background: var(--verde-100);
+  border: 1px solid var(--verde-300);
+}
+
+.card__titulo {
+  font-family: var(--fonte-titulo);
+  font-size: 22px;
+  margin: 0 0 6px;
+}
+
+.card__titulo--problema {
+  color: var(--vermelho-700);
+}
+
+.card__titulo--solucao {
+  color: var(--verde-700);
+}
+
+.card .lista-check {
+  grid-template-columns: 1fr 1fr;
+  margin-top: 18px;
+}
+
+/* =========================================================
+   --MISSÃO / VALORES--
+========================================================= */
+.missao-valores {
+  padding: 24px 24px 56px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.missao-valores__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.missao,
+.valores {
+  background: var(--branco);
+  border-radius: var(--raio-lg);
+  padding: 32px;
+  box-shadow: var(--sombra);
+}
+
+.missao__icone {
+  font-size: 28px;
+}
+
+.missao p {
+  font-size: 13.5px;
+  color: var(--tinta-600);
+}
+
+.missao__frase {
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  color: var(--verde-700) !important;
+  font-size: 15px !important;
+  margin-top: 14px;
+}
+
+.valores__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.valores__grid li {
+  font-size: 12.5px;
+  color: var(--tinta-600);
+}
+
+.valores__grid span {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+
+
+/* =========================================================
+   --EQUIPE / COMPROMISSO--
+========================================================= */
+.equipe-compromisso {
+  padding: 24px 24px 56px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.equipe-compromisso__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.equipe,
+.compromisso {
+  background: var(--branco);
+  border-radius: var(--raio-lg);
+  padding: 32px;
+  box-shadow: var(--sombra);
+}
+
+.equipe p,
+.compromisso p {
+  font-size: 13.5px;
+  color: var(--tinta-600);
+}
+
+.equipe__lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.equipe__lista li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tinta-900);
+  width: 80px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--verde-100);
+  color: var(--verde-700);
+  font-family: var(--fonte-titulo);
+  font-weight: 700;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.equipe__lista small {
+  font-weight: 400;
+  color: var(--tinta-300);
+  text-align: center;
+}
+
+.compromisso__foto {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: var(--raio-md);
+  margin-top: 18px;
+}
+
+/* =========================================================
+   --TECNOLOGIAS UTILIZADAS--
+========================================================= */
+.tecnologias {
+  padding: 24px 24px 64px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tecnologias__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 36px;
+  margin-top: 28px;
+}
+
+.tecnologias__grid li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.tech-icone {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--raio-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--fonte-titulo);
+  font-weight: 700;
+  font-size: 11px;
+  color: var(--branco);
+  box-shadow: var(--sombra);
+}
+
+.tech-icone--django {
+  color: #fff;
+  background: #092e20;
+  border-radius: 50%;
+  padding: 0.5em;
+  font-size: 2rem;
+}
+
+.tecnologias__grid small {
+  font-size: 12px;
+  color: var(--tinta-600);
+}
+
+/* =========================================================
+   --FOOTER--
+========================================================= */
+.footer {
+  background: var(--verde-900);
+  color: rgba(255, 255, 255, 0.85);
+  padding: 48px 24px 24px;
+}
+
+.footer__topo {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer__marca {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer__logo-fundo {
+  background: var(--branco);
+  border-radius: 12px;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo-imagem {
+  height: 30px;
+  width: auto;
+}
+
+.footer__marca strong {
+  font-family: var(--fonte-titulo);
+  color: var(--branco);
+  font-size: 17px;
+}
+
+.footer__marca p {
+  margin: 0;
+  font-size: 11.5px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__frase {
+  font-size: 13.5px;
+}
+
+.footer__frase--centro {
+  text-align: center;
+  max-width: 1200px;
+  margin: 24px auto 0;
+}
+
+.footer__social {
+  display: flex;
+  gap: 12px;
+}
+
+.footer__social a {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transicao);
+}
+
+.footer__social a:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.footer__copy {
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 32px 0 0;
+}
+
+/* =========================================================
+   --BOTÃO VOLTAR AO TOPO--
+========================================================= */
+.botao-topo {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: var(--verde-700);
+  color: var(--branco);
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: var(--sombra);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity var(--transicao), transform var(--transicao);
+  z-index: 90;
+}
+
+.botao-topo.visivel {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
